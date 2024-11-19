@@ -10,7 +10,7 @@ forma = ''  # armazena a forma de corte
 
 
 def corte_pela_forma():
-    """Tela para escolher formas de corte."""
+    """Tela para escolher formas de corte"""
     for widget in main_frame.winfo_children():
         widget.destroy()
 
